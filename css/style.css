@@ -6,3 +6,30 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+body{
+    background-color: gray;
+}
+.container{
+    background-color: #e6e6e6;
+    margin-left: 173px;
+    width: 1017px;
+    height: 100%;
+}
+
+/* OTHER SECTION */
+
+/* HEADER SECTION */
+header{
+    background-color: white;
+}
+
+.logo{
+    margin: 10px 0 10px 20px;
+    vertical-align: middle;
+}
+
+.logo-name{
+    display: inline-block;
+    vertical-align: middle;
+}
