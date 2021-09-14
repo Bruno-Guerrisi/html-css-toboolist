@@ -44,8 +44,6 @@ main{
     border-radius: 3px;
 }
 
-
-
 /* OPTION TASK */
 .options{
     border-bottom: 1px solid #e6e6e6;
@@ -74,10 +72,22 @@ main{
     margin: 20px 37px;
 }
 
+.task{
+    margin: 15px 0;
+}
+
 .check{
+    font-size: 12px;
     padding: 1px 4px;
     border: 1px solid green;
     color: green;
+    border-radius: 50%;
+}
+.delete{
+    font-size: 10px;
+    padding: 3px 4px;
+    border: 1px solid red;
+    color: red;
     border-radius: 50%;
 }
 
@@ -94,6 +104,20 @@ main{
     color: white;
     background-color: rgb(0, 144, 192);
 }
+.q1-goals{
+    color: white;
+    background-color: rgb(134, 0, 175);
+}
+.recluting{
+    color: white;
+    background-color: rgb(0, 194, 129);
+}
+.mobile{
+    color: white;
+    background-color: orange;
+}
+
+
 
 
 
