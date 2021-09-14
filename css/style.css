@@ -39,30 +39,29 @@ main{
     background-color: white;
     width: 720px;
     height: 515px;
-    margin: 30px 150px 0 150px;
+    margin: auto;
+    margin-top: 20px;
     border-radius: 3px;
 }
 
 .options{
-    height: 30px;
-    border-bottom: 1px solid rgb(184, 184, 184);
+    border-bottom: 1px solid #e6e6e6;
     line-height: initial;
 }
 
 .Add-Task{
-    margin: 10px 5px 5px 25px;
+    margin: 12px 5px 9px 37px;
     background-color: rgb(55, 55, 255);
     color: white;
 }
 
 .Add-Section{
-    margin: 10px 5px 5px 5px;
     color: rgb(184, 184, 184);
 }
 
 .botton-options{
-    border: 1px solid rgb(184, 184, 184);
-    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    border-radius: 7px;
     padding: 5px;
 }
 
