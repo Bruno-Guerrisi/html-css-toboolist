@@ -14,7 +14,7 @@ body{
     background-color: #e6e6e6;
     margin-left: 173px;
     width: 1017px;
-    height: 100%;
+    height: 627px;
 }
 
 /* OTHER SECTION */
@@ -33,3 +33,38 @@ header{
     display: inline-block;
     vertical-align: middle;
 }
+
+/* HEADER SECTION */
+main{
+    background-color: white;
+    width: 720px;
+    height: 515px;
+    margin: 30px 150px 0 150px;
+    border-radius: 3px;
+}
+
+.options{
+    height: 30px;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    line-height: initial;
+}
+
+.Add-Task{
+    margin: 10px 5px 5px 25px;
+    background-color: rgb(55, 55, 255);
+    color: white;
+}
+
+.Add-Section{
+    margin: 10px 5px 5px 5px;
+    color: rgb(184, 184, 184);
+}
+
+.botton-options{
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 3px;
+    padding: 5px;
+}
+
+
+
