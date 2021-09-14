@@ -12,9 +12,8 @@ body{
 }
 .container{
     background-color: #e6e6e6;
-    margin-left: 173px;
-    width: 1017px;
-    height: 627px;
+    margin: auto;
+    padding-bottom: 10px;
 }
 
 /* OTHER SECTION */
@@ -37,10 +36,10 @@ header{
 /* HEADER SECTION */
 main{
     background-color: white;
-    width: 720px;
-    height: 515px;
-    margin: auto;
+    width: 60%;
+    margin: auto; 
     margin-top: 20px;
+    padding-bottom: 10px;
     border-radius: 3px;
 }
 
@@ -50,13 +49,13 @@ main{
     line-height: initial;
 }
 
-.Add-Task{
+.add-Task{
     margin: 12px 5px 9px 37px;
     background-color: rgb(55, 55, 255);
     color: white;
 }
 
-.Add-Section{
+.add-section{
     color: rgb(184, 184, 184);
 }
 
