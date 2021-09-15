@@ -21,10 +21,11 @@ body{
 /* HEADER SECTION */
 header{
     background-color: white;
+    padding: 10px;
 }
 
 .logo{
-    margin: 10px 0 10px 20px;
+    margin-left: 10px;
     vertical-align: middle;
 }
 
@@ -34,7 +35,7 @@ header{
 }
 
 /* HEADER SECTION */
-main{
+.container-task{
     background-color: white;
     width: 60%;
     margin: auto; 
@@ -46,48 +47,56 @@ main{
 /* OPTION TASK */
 .options{
     border-bottom: 1px solid #e6e6e6;
-    line-height: initial;
+    padding: 10px 35px;
 }
 
 .add-Task{
-    margin: 12px 5px 9px 37px;
     background-color: rgb(55, 55, 255);
     color: white;
 }
 
 .add-section{
     color: rgb(184, 184, 184);
+    margin-left: 3px;
 }
 
 .botton-options{
     border: 1px solid #e6e6e6;
     border-radius: 7px;
     padding: 5px;
+    font-size: 12px;
 }
 
 /* TASK SETUP */
 
 .all-section-task{
-    margin: 20px 37px;
+    margin: 15px 37px;
 }
 
 .task{
-    margin: 15px 0;
+    padding: 10px;
+    color: #585c65;
+    list-style: none;
 }
 
-.check{
-    font-size: 12px;
-    padding: 1px 4px;
-    border: 1px solid green;
-    color: green;
+.circle{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    margin-right: 5px;
     border-radius: 50%;
+}
+.check{
+    font-size: 13px;
+    color: green;
+    border: 1px solid currentColor;
 }
 .delete{
     font-size: 10px;
-    padding: 3px 4px;
-    border: 1px solid red;
     color: red;
-    border-radius: 50%;
+    border: 1px solid currentColor;
 }
 
 .info-task{
@@ -95,31 +104,27 @@ main{
     border-radius: 15px;
     border: 1px solid #e6e6e6 ;
     font-size: 12px;
+    color: white;
+    vertical-align: middle;
 }
 
 /* TASK SECTION */
 
 .editorial{
-    color: white;
     background-color: rgb(0, 144, 192);
 }
 .q1-goals{
-    color: white;
     background-color: rgb(134, 0, 175);
 }
 .recluting{
-    color: white;
     background-color: rgb(0, 194, 129);
 }
 .mobile{
-    color: white;
     background-color: orange;
 }
 .website{
-    color: white;
     background-color: rgb(194, 0, 194);
 }
 .sales{
-    color: white;
     background-color: rgb(0, 165, 0);
 }
